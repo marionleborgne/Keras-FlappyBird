@@ -15,6 +15,31 @@ https://yanpanlau.github.io/2016/07/10/FlappyBird-Keras.html
 * pygame
 * scikit-image
 
+# GPU or CPU
+
+Edit `~/.keras/keras.json` if you want to use Theano (CPU) or TensorFlow (GPU).
+
+* `keras.json` with `theano` backend:
+```
+{
+    "epsilon": 1e-07,
+    "floatx": "float32",
+    "backend": "theano",
+    "image_dim_ordering": "th"
+}
+```
+
+
+* `keras.json` with `tensorflow` backend:
+```
+{
+    "epsilon": 1e-07,
+    "floatx": "float32",
+    "backend": "tensorflow",
+    "image_dim_ordering": "tf"
+}
+```
+
 # How to Run?
 
 **CPU only**
