@@ -17,6 +17,15 @@ https://yanpanlau.github.io/2016/07/10/FlappyBird-Keras.html
 
 # How to Run?
 
+MacOX Yosemite:
+```
+export LD_LIBRARY_PATH=~/Library/Python/2.7/lib/python/site-packages/PySide:/usr/local/lib:/usr/local/Cellar/jpeg/8d/lib
+```
+or run:
+```
+LD_LIBRARY_PATH=~/Library/Python/2.7/lib/python/site-packages/PySide:/usr/local/lib:/usr/local/Cellar/jpeg/8d/lib python qlearn.py -m "Run"
+```
+
 **CPU only**
 
 ```
